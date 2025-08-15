@@ -1,0 +1,6 @@
+@dotnetSQSPublisher_HostAddress = http://localhost:5037
+
+GET {{dotnetSQSPublisher_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

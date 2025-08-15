@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.13.36105.23 d17.13
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "dotnetSQSPublisher", "dotnetSQSPublisher\dotnetSQSPublisher.csproj", "{DA6E171A-3F6D-46E7-BDB7-20B185A73A1A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "dotnetSQSConsumer", "dotnetSQSConsumer\dotnetSQSConsumer.csproj", "{83B81868-4306-4AD8-8418-1B397C95FF3E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DA6E171A-3F6D-46E7-BDB7-20B185A73A1A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DA6E171A-3F6D-46E7-BDB7-20B185A73A1A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DA6E171A-3F6D-46E7-BDB7-20B185A73A1A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DA6E171A-3F6D-46E7-BDB7-20B185A73A1A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{83B81868-4306-4AD8-8418-1B397C95FF3E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{83B81868-4306-4AD8-8418-1B397C95FF3E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{83B81868-4306-4AD8-8418-1B397C95FF3E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{83B81868-4306-4AD8-8418-1B397C95FF3E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {26444FAE-E020-4080-AB46-215597941A22}
+	EndGlobalSection
+EndGlobal
